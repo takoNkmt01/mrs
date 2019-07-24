@@ -37,7 +37,7 @@ insert into usr (user_id, first_name, last_name, password, role_name)
 values ('taro-yamada', '太郎', '山田', '$2a$10$oxSJl.keBwxmsMLKcT9lPeAIxfNTPNQxpeywMrF7A3kVszwUTqfTK', 'USER');
 --認証確認用のテストユーザー(password = demo)
 insert into usr (user_id, first_name, last_name, password, role_name)
-values ('aaaa', 'Aaa', 'Aaa', 'demo', 'USER');
+values ('aaaa', 'Aaa', 'Aaa', '$2a$10$ybwWoqkHoZwQ0rPhEOlVIuPvBG9KAkUvuEUYHUlL1ypu365T2pasi', 'USER');
 insert into usr (user_id, first_name, last_name, password, role_name)
 values ('bbbb', 'Bbb', 'Bbb', '$2a$10$oxSJl.keBwxmsMLKcT9lPeAIxfNTPNQxpeywMrF7A3kVszwUTqfTK', 'USER');
 insert into usr (user_id, first_name, last_name, password, role_name)
